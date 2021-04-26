@@ -90,10 +90,8 @@ Demo Video 4**
 
 #
 
-> Testing is a snap which illustrates the power of visualization.  For the letters "A" through "G", performance was mostly spot on.  The last 7 letters did not do so well probably because it's missing the left hand side of the hand, as in here, or the bottom of wrist, here, or again the left hand side of the hand, here. 
+> Testing is a snap which illustrates the power of visualization.  For the letters "A" through "G", performance was mostly spot on.  The last 7 letters did not do so well probably because it's missing the left hand side of the hand, as in here, or the bottom of wrist, here, or again the left hand side of the hand, here. I do appreciate you taking the time to watch my video.  Thank you very much. 
 
 <img width="504" alt="image" src="https://user-images.githubusercontent.com/38410965/116023340-e9b0bf80-a619-11eb-9a10-41b2b0d1898f.png">
 
 <img width="470" alt="image" src="https://user-images.githubusercontent.com/38410965/116023490-2e3c5b00-a61a-11eb-9613-e9528009ee99.png">
-
-> I do appreciate you taking the time to watch my video.  Thank you very much. 
