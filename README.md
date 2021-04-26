@@ -26,28 +26,37 @@ Demo Video 4**
 
 **American Sign Language dataset**
 
-| samples      | 3,000          |
+|              |                |
 | ------------ |:-------------- |
+| samples      | 3,000          |
 | classes      | 26 + 1 + 1     |
 | information  | 200 x 200 x 3  |
 
-samples		3000 
-classes		26 + 1 + 1 
-information	200 x 200 x 3
+**Auto ML**
 
-[2nd slide- 4thslide]
+<img width="248" alt="Confidence" src="https://user-images.githubusercontent.com/38410965/116021536-63df4500-a616-11eb-9a67-605728658459.png">
 
-You can also see they made the process very convenient by emailing me ...
+<img width="165" alt="image" src="https://user-images.githubusercontent.com/38410965/116021948-3d6dd980-a617-11eb-98cc-989a796e698d.png">
 
-... when the data set was loaded which took a few minutes, 
+#
 
-... when model had finished training which took about 4 hours, 
+> You can also see they made the process very convenient by emailing me when the data set was loaded which took a few minutes, ...   
 
-... and when the trained model had deployed for inference. 
+<img width="338" alt="AutoML Vision" src="https://user-images.githubusercontent.com/38410965/116021598-81141380-a616-11eb-9657-4778e8632d5e.png">
 
-[5thd slide. EVAL]
-[GCP evaluation screen]
-[finder]
+#
+
+> ... when model had finished training which took about 4 hours, ...   
+
+<img width="333" alt="AutoML Vision" src="https://user-images.githubusercontent.com/38410965/116021634-91c48980-a616-11eb-8718-50dace127788.png">
+
+#
+
+> ... and when the trained model had deployed for inference.     
+
+<img width="334" alt="AutoML Vision" src="https://user-images.githubusercontent.com/38410965/116021649-9b4df180-a616-11eb-8db9-708558b9c94d.png">
+
+#
 
 Another key benefit of Auto ML is that performance comes with excellent interactive visualization.  Since most executives learn via interacting, this is a huge plus.  
 
