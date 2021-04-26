@@ -96,6 +96,4 @@ Demo Video 4**
 
 <img width="470" alt="image" src="https://user-images.githubusercontent.com/38410965/116023490-2e3c5b00-a61a-11eb-9613-e9528009ee99.png">
 
-I do appreciate you taking the time to watch my video.  
-
-Thank you very much. 
+> I do appreciate you taking the time to watch my video.  Thank you very much. 
