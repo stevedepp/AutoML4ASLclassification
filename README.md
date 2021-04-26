@@ -9,14 +9,14 @@ Please click the video to hear sound or follow along with the transcript / slide
 
 #
 
+> Hello. These are the images of the American Sign Language data set. 
+
 **Steve Depp    
 MSDS 462     
 Section 55     
 Demo Video 4** 
 
 **American Sign Language dataset**
-
-> Hello. These are the images of the American Sign Language data set. 
 
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/38410965/116020809-05fe2d80-a615-11eb-8de1-d8939512d794.png">
 
@@ -58,57 +58,43 @@ Demo Video 4**
 
 #
 
-Another key benefit of Auto ML is that performance comes with excellent interactive visualization.  Since most executives learn via interacting, this is a huge plus.  
+> Another key benefit of Auto ML is that performance comes with excellent interactive visualization.  Since most executives learn via interacting, this is a huge plus.  For example here’s are 3 instances of interacting with the Evaluation tab. I can slide this confidence bar from 50% where F1 is 1 to 80% where recall falls below 100%.  Maybe in a negotiation or science presentation or doctor's visit, this would be appropriate. If I slide it further to 7% confidence, precision suffers but only to about 97%.  This result might justify using a one shot only model where confidence is low, but speed is high like in a crowded restaurant.    
 
-For example here’s are 3 instances of interacting with the Evaluation tab.      
+<img width="351" alt="image" src="https://user-images.githubusercontent.com/38410965/116022739-c6394500-a618-11eb-8b8c-cb45c4bb3035.png">
 
-I can slide this confidence bar from 50% where F1 is 1 to 80% where recall falls below 100%.    
+#
 
-Maybe in a negotiation or science presentation or doctor's visit, this would be appropriate.     
+> Best I can tell, the images are stills lifted from video.  Here is a sequence of young person with pale skin hand signing the letter "A" in a uniform background through shade and sunlight for better generalization.  This model wouldn’t for example generalize very well for dark skinned, thicker and older individual in a dark restaurant. 
 
-If I slide it further to 7% confidence, precision suffers but only to about 97%.    
+<img width="431" alt="image" src="https://user-images.githubusercontent.com/38410965/116022793-df41f600-a618-11eb-814e-32580059ae6c.png">
 
-This result might justify using a one shot only model where confidence is low, but speed is high like in a crowded restaurant.    
+<img width="429" alt="image" src="https://user-images.githubusercontent.com/38410965/116022823-f08b0280-a618-11eb-8c56-645d1f4a4e58.png">
 
-[finder Scroll through images]
+#
 
-Best I can tell, the images are stills lifted from video.
+> The total size of the dataset is just under a gig uncompressed.  Doing the math on three thousand 3-bit images with 400,000 pixels, I couldn’t arrive at the same number so I explored a bit.   
 
-Here is a sequence of young person with pale skin hand signing the letter "A" in a uniform background through shade and sunlight for better generalization.
+<img width="279" alt="image" src="https://user-images.githubusercontent.com/38410965/116022926-2b8d3600-a619-11eb-8e9d-3440f85f9bc0.png">
 
-This model wouldn’t for example generalize very well for dark skinned, thicker and older individual in a dark restaurant. 
+#
 
-[NExt slide DATA]
+> One result is finding that darker images, here on the bottom, tend to have less information.  Here, you can see the lighter image with 15,000 bytes has more edges than the darker file with only 10.000 bytes.
 
-The total size of the dataset is just under a gig uncompressed.  
+<img width="218" alt="image" src="https://user-images.githubusercontent.com/38410965/116022990-48c20480-a619-11eb-95a0-99ea654db334.png">
 
-Doing the math on three thousand 3-bit images with 400,000 pixels, I couldn’t arrive at the same number so I explored a bit.   
+#
 
-[Fourth slide]
+> A one gigabyte of image import too large for AutoML. Google cloud bucket with CSV conversion is too cumbersome.  Selecting 200 images in alphabetic order was not an option because, as you can see, they are highly correlated.  As a hack, I sorted by size instead of by name and selected only the 200 smallest images.  So, for example, go down here, change this to size, and now you pick sequential images, they're very different. Only later did I consider that I was using the smallest sized images in the sorting scheme.
 
-One result is finding that darker images, here on the bottom, tend to have less information.
+<img width="433" alt="image" src="https://user-images.githubusercontent.com/38410965/116023246-c259f280-a619-11eb-9b6d-cb123dcf2bcb.png">
 
-Here, you can see the lighter image with 15,000 bytes has more edges than the darker file with only 10.000 bytes.
+#
 
-[FIINDER can show resorting images]
+> Testing is a snap which illustrates the power of visualization.  For the letters "A" through "G", performance was mostly spot on.  The last 7 letters did not do so well probably because it's missing the left hand side of the hand, as in here, or the bottom of wrist, here, or again the left hand side of the hand, here. 
 
-A one gigabyte of image import too large for AutoML. 
+<img width="504" alt="image" src="https://user-images.githubusercontent.com/38410965/116023340-e9b0bf80-a619-11eb-9a10-41b2b0d1898f.png">
 
-Google cloud bucket with CSV conversion is too cumbersome. 
-
-Selecting 200 images in alphabetic order was not an option because, as you can see, they are highly correlated .
-
-As a hack, I sorted by size instead of by name and selected only the 200 smallest images.  So, for example, go down here, change this to size, and now you pick sequential images, they're very different.  
-
-Only later did I consider that I was using the smallest sized images in the sorting scheme.
-
-[LAST sslide ]
-[test pane on GCP
-
-Testing is a snap which illustrates the power of visualization.
-
-For the letters "A" through "G", performance was mostly spot on.
-The last 7 letters did not do so well probably because it's missing the left hand side of the hand, as in here, or the bottom of wrist, here, or again the left hand side of the hand, here. 
+<img width="470" alt="image" src="https://user-images.githubusercontent.com/38410965/116023490-2e3c5b00-a61a-11eb-9613-e9528009ee99.png">
 
 I do appreciate you taking the time to watch my video.  
 
