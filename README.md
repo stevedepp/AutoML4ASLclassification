@@ -1,17 +1,17 @@
-# AutoML for American Sign Language classification
+# AutoML for American Sign Language classification    
 
-TGIF project: a day using AutoML to classify ASL images
+TGIF project: a day using AutoML to classify ASL images    
 
-Please click the video to hear sound or follow along with the transcript / slides below the video.     
-(In this case, the video integrates several illustrations and is better than a set of transcript & slides could present.)   
+Please click the video to hear sound or follow along with the transcript / slides below the video.         
+(In this case, the video integrates several illustrations and is better than a set of transcript & slides could present.)       
 
 ![demo](https://user-images.githubusercontent.com/38410965/111720421-3394d180-8834-11eb-8674-59f37f840aac.mp4)
 
 #
 
-**Steve Depp 
-MSDS 462 
-Section 55 
+**Steve Depp    
+MSDS 462     
+Section 55     
 Demo Video 4** 
 
 **American Sign Language dataset**
@@ -60,15 +60,15 @@ Demo Video 4**
 
 Another key benefit of Auto ML is that performance comes with excellent interactive visualization.  Since most executives learn via interacting, this is a huge plus.  
 
-For example here’s are 3 instances of interacting with the Evaluation tab.  
+For example here’s are 3 instances of interacting with the Evaluation tab.      
 
-I can slide this confidence bar from 50% where F1 is 1 to 80% where recall falls below 100%.
+I can slide this confidence bar from 50% where F1 is 1 to 80% where recall falls below 100%.    
 
-Maybe in a negotiation or science presentation or doctor's visit, this would be appropriate. 
+Maybe in a negotiation or science presentation or doctor's visit, this would be appropriate.     
 
-If I slide it further to 7% confidence, precision suffers but only to about 97%.
+If I slide it further to 7% confidence, precision suffers but only to about 97%.    
 
-This result might justify using a one shot only model where confidence is low, but speed is high like in a crowded restaurant.
+This result might justify using a one shot only model where confidence is low, but speed is high like in a crowded restaurant.    
 
 [finder Scroll through images]
 
