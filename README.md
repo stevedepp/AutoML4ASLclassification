@@ -3,7 +3,7 @@
 TGIF project: a day using AutoML to classify ASL images    
 
 Please click the video to hear sound or follow along with the transcript / slides below the video.         
-(In this case, the video integrates several illustrations and is better than a set of transcript & slides could present.)       
+(In this case, the video integrates several illustrations and is better than a set of transcript & slides might be able to present.)       
 
 ![demo](https://user-images.githubusercontent.com/38410965/111720421-3394d180-8834-11eb-8674-59f37f840aac.mp4)
 
