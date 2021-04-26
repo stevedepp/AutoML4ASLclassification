@@ -26,11 +26,11 @@ Demo Video 4**
 
 **American Sign Language dataset**
 
-|              |               |
-| ------------ |:-------------:|
-| samples      | 3,000         |
-| classes      | 26 + 1 + 1    |
-| information  | 200 x 200 x 3 |
+|              |                |
+| ------------ |:-------------- |
+| samples      | 3,000          |
+| classes      | 26 + 1 + 1     |
+| information  | 200 x 200 x 3  |
 
 samples		3000 
 classes		26 + 1 + 1 
